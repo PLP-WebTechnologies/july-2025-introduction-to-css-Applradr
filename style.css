@@ -1,0 +1,23 @@
+body{
+    font-size: 30px;
+    color: rgb(39, 37, 34);
+    background-color: rgb(185, 223, 210);
+    box-sizing: border-box;
+}
+p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto ;
+    padding: 1rem;
+    gap: 2.5rem;
+}
+.box{
+    background-color: rgb(15, 176, 224);
+    padding: 2.5rem;
+    border: 5px solid rgb(32, 60, 143);
+    flex: 1;
+}
